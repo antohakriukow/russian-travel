@@ -1,0 +1,18 @@
+.intro {
+    background-color: #2A2C2F;
+    padding-top: 92px;
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        padding-top: 88px;
+    }
+}
+
+@media (max-width: 425px) {
+    .intro {
+        padding-top: 64px;
+    }
+}

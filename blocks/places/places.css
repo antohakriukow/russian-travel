@@ -1,0 +1,22 @@
+.places {
+    background-color: #2A2C2F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+
+@media (max-width: 830px) {
+    .places {
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+}
+
+@media (max-width: 425px) {
+    .places {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}

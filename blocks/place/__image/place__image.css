@@ -1,0 +1,10 @@
+.place__image {
+    width: 100%;
+}
+
+@media (max-width: 425px) {
+    .place__image {
+        width: 100vw;
+        transform: translateX(-16px);
+    }
+}
