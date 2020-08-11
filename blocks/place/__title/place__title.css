@@ -4,7 +4,7 @@
     color: white;
     font-size: 72px;
     line-height: calc(76 / 72);
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 @media (max-width: 830px) {

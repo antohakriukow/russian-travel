@@ -6,7 +6,7 @@
     color: white;
     font-size: 96px;
     line-height: 1.041;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 @media (max-width: 720px) {
