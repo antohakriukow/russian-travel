@@ -8,3 +8,21 @@
     line-height: 1.63;
     font-weight: normal;
 }
+
+@media (max-width: 1024px) {
+    .intro__text {
+        max-width: 690px;
+    }
+}
+
+@media (max-width: 800px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro__text {
+        max-width: 90vw;
+    }
+}

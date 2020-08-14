@@ -8,24 +8,57 @@
     width: 560px;
     text-align: center;
     z-index: 10;
+    pointer-events: none;
 }
 
 @media (max-width: 584px) {
     .cover__title {
         font-size: 52px;
-        width: 75%;
+        width: 71%;
+    }
+}
+
+@media (max-width: 515px) {
+    .cover__title {
+        width: 76%;
     }
 }
 
 @media (max-width: 480px) {
     .cover__title {
-        width: 85%;
+        width: 60%;
+        font-size: 38px;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 445px) {
     .cover__title {
-        font-size: 32px;
+        width: 62%;
+    }
+}
+
+@media (max-width: 430px) {
+    .cover__title {
+        width: 64%;
+    }
+}
+
+@media (max-width: 426px) {
+    .cover__title {
+        width: 60%;
         line-height: 1.094;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cover__title {
+        width: 68%;
+    }
+}
+
+@media (max-width: 330px) {
+    .cover__title {
+        width: 71%;
     }
 }

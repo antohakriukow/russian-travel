@@ -9,6 +9,7 @@
     text-align: center;
     margin-top: 32px;
     z-index: 10;
+    pointer-events: none;
 }
 
 @media (max-width: 584px) {
@@ -23,5 +24,11 @@
     .cover__subtitle {
         width: 95%;
         margin-top: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__subtitle {
+        width: 90%;
     }
 }
